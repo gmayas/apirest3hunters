@@ -1,23 +1,33 @@
-# chat_js_mongo_01
+# apirest3hunters
 
-Este proyecto fue creado con Node: 14.15.2, socket.io: 3.0.4.
+Este proyecto fue creado con Node versión 14.16.1.
 
-Al momento de descargar este proyecto, instale las dependencia con npm install, para ejecutar npm run dev, la aplicación corre en: http://localhost:3000/
+Al momento de descargar este proyecto, instale las dependencias con npm install, para ejecutar npm run dev, la aplicación corre en: http://localhost:4000/
 
-El objetivo de este proyecto es mostrar las posibles conexiones al momento de entrar a la url de nuestro sistemas, utilizando Websocket (socket.io). 
- 
- wwwwwsssxxzz
+## APIRest 3Hunters
 
-## Para ver en operación.
+APIRest 3Hunters fue creada con Node, Javacript, Express y se conecta a una BD Mongo con Mongoose.
 
-https://chatjsmongo.herokuapp.com/
+Si desea ver en produción a APIRest 3Hunters, solo de clic en el siguiente link:
 
+https://apirest3hunters.herokuapp.com/
 
-## Para ver una guia de operación y mas detalles.
+![](/images/img01.png)
 
-https://docs.google.com/document/d/1EGhx5r7qqWzvi1VrOX8l_neWUmytwWnbzLCpmrw2X1s/edit?usp=sharing
+## Rutas
 
+### getUsers
 
-`© 2020 Copyright: GMayaS C:\>Desarrollo en Sistemas.`
+Sirve para consultar toda la información de la tabla users y la retorna de manera _id DESC.
+
+![](/images/img02.png)
+
+### createUser
+
+Sirve para crear registro en la tabla users.
+
+![](/images/img03.png)
+
+`© 2021 Copyright: GMayaS C:\>Desarrollo en Sistemas.`
 
 
