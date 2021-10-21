@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "deploy": "gh-pages src"
+    "deploy": "gh-pages ."
   },
   "keywords": [],
   "author": "",
