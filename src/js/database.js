@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-console.log("Mongodb URL: ", process.env['URIMONGODB'])
-
-mongoose.connect(process.env['URIMONGODB'], {
+const URIMONGODB = "mongodb+srv://admin:pQo82ujIYNptFBxG@cluster0.dzxo9.mongodb.net/atlantiaDev?retryWrites=true&w=majority"
+//
+mongoose.connect(URIMONGODB, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
