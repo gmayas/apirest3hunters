@@ -6,5 +6,5 @@ mongoose.connect(URIMONGODB, {
   useUnifiedTopology: true
 })
 
-.then((db) => console.log("Mongodb is connected to: ", process.env['URIMONGODB']))
+.then((db) => console.log("Mongodb is connected to: ", URIMONGODB))
 .catch(err => console.log('Mongodb connected error in Cluster: ', err));
